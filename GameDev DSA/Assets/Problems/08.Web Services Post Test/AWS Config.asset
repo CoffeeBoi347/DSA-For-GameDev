@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a981f48fb386c6843a3f3fbb6bbc6238, type: 3}
   m_Name: AWS Config
   m_EditorClassIdentifier: 
-  url: https://1i17mlpa69.execute-api.ap-northeast-3.amazonaws.com
+  url: 'https://1i17mlpa69.execute-api.ap-northeast-3.amazonaws.com/prod/ '
   usernamePlayer: admin
   passwordPlayer: 1234
