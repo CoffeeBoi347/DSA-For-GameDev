@@ -18,11 +18,11 @@ public class AWSPostTest : MonoBehaviour
         StartCoroutine(LoginToAWS(configAsset.usernamePlayer, configAsset.passwordPlayer));
     }
 
-    public IEnumerator LoginToAWS(string _username, string _password)
+    public IEnumerator LoginToAWS(string _usrname, string _password)
     {
         string url = configAsset.url;
         var request = new UnityWebRequest(url, "POST");
-        var json = JsonUtility.ToJson(new LoginData { username = _username, password = _password });
+        var json = JsonUtility.ToJson(new LoginData { username = _usrname, password = _password });
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
         request.downloadHandler = new DownloadHandlerBuffer();
         request.uploadHandler = new UploadHandlerRaw(bodyRaw);
