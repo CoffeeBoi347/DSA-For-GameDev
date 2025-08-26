@@ -8,8 +8,7 @@ public class GameScope : LifetimeScope
     protected override void Configure(IContainerBuilder builder)
     {
         base.Configure(builder);
-        builder.Register<IScoreService, ScoreService>(Lifetime.Singleton);
-        builder.Register<BootExit>(Lifetime.Singleton);
-        builder.RegisterEntryPoint<BootEntry>();
+        builder.Register<IBasicAI, DogAI>(Lifetime.Singleton);
+        builder.RegisterComponentInHierarchy<BasicAI>();
     }
 }
