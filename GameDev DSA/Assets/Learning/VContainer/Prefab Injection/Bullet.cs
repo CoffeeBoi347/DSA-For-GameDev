@@ -4,6 +4,7 @@ using VContainer;
 public class Bullet : MonoBehaviour
 {
     private IBulletService _bulletService;
+
     [Inject]
     public void Construct(IBulletService bulletService)
     {
