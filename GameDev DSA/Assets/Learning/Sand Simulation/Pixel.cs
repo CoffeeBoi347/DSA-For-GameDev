@@ -1,5 +1,5 @@
 using UnityEngine;
-
+[System.Serializable]
 public struct Pixel
 {
     public TextureType textureType;
