@@ -13,12 +13,20 @@ MonoBehaviour:
   m_Name: Default Local Group
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
-  m_Data:
-    m_SerializedData: []
   m_GUID: 02c60c965210c074cbfc30c5a497dbef
   m_SerializeEntries:
+  - m_GUID: 349e94dd21241bd419cb319a5ff13447
+    m_Address: Assets/Learning/Addressables/Cat.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 434a0755797c76b46b8510956227d9fe
     m_Address: RamCharanSprite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dfa39721b060144fa67815230cf3dd7
+    m_Address: Assets/Learning/Addressables/Panda.jpg
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -26,5 +34,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 519084c58570bc448a94f10a7721650d, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b28d0fdf2bad2b741a359653de0095fb, type: 2}
     - {fileID: 11400000, guid: cf171669b3729754ba09fbf6865d20a4, type: 2}
+    - {fileID: 11400000, guid: b28d0fdf2bad2b741a359653de0095fb, type: 2}
