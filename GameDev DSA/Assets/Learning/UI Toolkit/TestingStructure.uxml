@@ -1,5 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/Learning/UI%20Toolkit/TestingUSS.uss?fileID=7433441132597879392&amp;guid=2b78a6818975b5b4dbdc197ab864f011&amp;type=3#TestingUSS" />
-    <ui:Label tabindex="-1" text="helloLabel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="helloLabel" />
-    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="myButton" class="unity-button" />
+    <ui:VisualElement name="myVisualElement" style="flex-grow: 1; position: relative; flex-direction: column; transition-duration: 0s; transition-delay: 0.1s; -unity-slice-scale: 0; visibility: visible; display: flex; overflow: visible; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; flex-wrap: nowrap; -unity-font-style: normal; white-space: normal; text-overflow: clip; -unity-text-align: upper-left; letter-spacing: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); -unity-text-outline-width: 0; -unity-font: initial; color: rgb(0, 0, 0); align-items: stretch;">
+        <ui:Label tabindex="-1" text="Text123" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Button text="Button123" parse-escape-sequences="true" display-tooltip-when-elided="true" name="myButton" style="position: relative; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" />
+        <ui:Toggle label="Toggle" />
+        <ui:Scroller high-value="100" direction="Horizontal" value="42" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+    </ui:VisualElement>
 </ui:UXML>

@@ -3,24 +3,30 @@ using UnityEngine.UIElements;
 
 public class LabelStyler : MonoBehaviour
 {
-    public string classListName;
-    public string buttonListName;
-    private void OnEnable()
+    [SerializeField] private string visualContainerName;
+    [SerializeField] private string buttonName;
+
+    [SerializeField] private StyleSheet styleSheet;
+
+    [SerializeField] private string panelClassName;
+    [SerializeField] private string buttonClassName;
+    private VisualElement element;
+    private Button actionButton;
+    private void Start()
     {
-        var root = this.GetComponent<UIDocument>().rootVisualElement; // returns the UI element holding the elements
-        var label = root.Q<Label>("helloLabel"); // accessing the helloLabel object from unity UI toolkit
-        var button = root.Q<Button>("myButton");
+        var root = GetComponent<UIDocument>().rootVisualElement;
+        element = root.Q<VisualElement>(visualContainerName);
+        actionButton = root.Q<Button>(buttonName);
 
-        if(label == null)
+        if(element != null )
         {
-            Debug.LogWarning($"Label not found! Please assign the label's name correctly.");
-            return;
+            Debug.Log("Adding StyleSheet!");
+            element.styleSheets.Add(styleSheet);
+            if(!string.IsNullOrEmpty(panelClassName) && !string.IsNullOrEmpty(buttonClassName)) {
+                Debug.Log("Adding Class To Class List Of Visual Element!");
+                element.AddToClassList(panelClassName);
+                actionButton.AddToClassList(buttonClassName);
+            }
         }
-
-        button.clicked += () =>
-        {
-            label.AddToClassList(classListName);
-            button.AddToClassList(buttonListName);
-        };
     }
 }

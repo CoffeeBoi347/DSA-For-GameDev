@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Learning/UI%20Toolkit/PanelUSS.uss?fileID=7433441132597879392&amp;guid=4f509661a47a4ab47b72fd24c1e8adcd&amp;type=3#PanelUSS" />
+    <ui:VisualElement name="myVisualElement" class="header-box" style="flex-grow: 1; height: 35px; flex-direction: row;">
+        <ui:Label tabindex="-1" text="ConnectIn" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Button text="Home" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Button text="Notif" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Button text="Profile" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+    <ui:VisualElement name="myAuthentication" class="my-authentication" style="flex-grow: 1; top: 143px; left: 46px; height: 32px; width: 252px;">
+        <ui:Label tabindex="-1" text="Email:" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+    </ui:VisualElement>
+</ui:UXML>
