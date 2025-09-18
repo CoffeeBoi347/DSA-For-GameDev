@@ -1,0 +1,23 @@
+.sign-up-holder {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: absolute;
+    border-top-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 100px;
+    border-left-width: 100px;
+    width: 1164px;
+    height: 1464px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Design%20Toolbox/Fonts/Coolvetica.OTF?fileID=12800000&guid=8af97fe5802ff2740ab33c8fc7fafd9e&type=3#Coolvetica');
+    justify-content: space-around;
+    align-items: flex-start;
+    transform-origin: center;
+    align-self: flex-start;
+}
+
+.text-field {
+    margin-bottom: 60px;
+}

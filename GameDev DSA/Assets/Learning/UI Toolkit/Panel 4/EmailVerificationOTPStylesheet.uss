@@ -1,0 +1,4 @@
+.email-verification-otp-holder {
+    margin-top: 115px;
+    padding-left: 35px;
+}

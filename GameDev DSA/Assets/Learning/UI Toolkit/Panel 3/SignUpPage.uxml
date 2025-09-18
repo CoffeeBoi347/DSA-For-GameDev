@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Learning/UI%20Toolkit/Panel%203/SignUpStylesheet.uss?fileID=7433441132597879392&amp;guid=78107bc8f0d79684d81c86ea4ea43987&amp;type=3#SignUpStylesheet" />
+    <ui:VisualElement name="Sign-Up-Holder" class="sign-up-holder" style="flex-grow: 1; top: 388px; align-self: stretch; justify-content: flex-start; left: 0;">
+        <ui:Label tabindex="-1" text="Create your account" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 124px; padding-top: 1px; position: absolute; top: 145px; left: -75px; -unity-font-style: normal; align-items: flex-start; align-self: flex-start; color: rgb(255, 255, 255);" />
+        <ui:ScrollView style="height: 575px; width: 1015px; justify-content: space-between; align-items: flex-start; align-self: flex-start; position: absolute; top: 504px; left: -16px; padding-top: -15px;">
+            <ui:TextField picking-mode="Ignore" label="Email" value="filler text" class="text-field" style="font-size: 94px; -unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0);" />
+            <ui:TextField picking-mode="Ignore" label="Password" value="filler text" class="text-field" style="font-size: 94px;" />
+        </ui:ScrollView>
+        <ui:Label tabindex="-1" text="Password must be greater than 6 characters" parse-escape-sequences="true" display-tooltip-when-elided="true" style="position: absolute; font-size: 36px; top: 897px; left: 171px; -unity-text-outline-width: 1px; color: rgb(255, 255, 255);" />
+        <ui:Button text="Continue" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: flex-start; justify-content: center; align-self: flex-start; font-size: 106px; border-top-left-radius: 52px; border-top-right-radius: 52px; border-bottom-right-radius: 52px; border-bottom-left-radius: 52px; background-color: rgb(53, 178, 212); position: absolute; top: 1107px; left: 274px; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,51 @@
+.top-text {
+    align-items: auto;
+    position: absolute;
+    -unity-font-style: normal;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Design%20Toolbox/Fonts/Coolvetica.OTF?fileID=12800000&guid=8af97fe5802ff2740ab33c8fc7fafd9e&type=3#Coolvetica');
+    font-size: 36px;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 27px;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    -unity-text-align: upper-left;
+    transform-origin: left top;
+    padding-top: 32px;
+    padding-left: 25px;
+}
+
+.sign-in-holder {
+    align-items: stretch;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.action-btn-forget-password {
+    position: absolute;
+    font-size: 62px;
+    align-items: stretch;
+    align-self: stretch;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Design%20Toolbox/Fonts/Coolvetica.OTF?fileID=12800000&guid=8af97fe5802ff2740ab33c8fc7fafd9e&type=3#Coolvetica');
+    color: rgb(21, 105, 190);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.action-btn-sign-in {
+    font-size: 64px;
+    align-self: center;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
+    border-bottom-right-radius: 37px;
+    border-bottom-left-radius: 37px;
+    align-items: stretch;
+    justify-content: space-around;
+}

@@ -15,6 +15,9 @@ public class LabelStyler : MonoBehaviour
     private void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
+        root.style.width = new Length(100, LengthUnit.Percent);
+        root.style.height = new Length(100, LengthUnit.Percent);
+
         element = root.Q<VisualElement>(visualContainerName);
         actionButton = root.Q<Button>(buttonName);
 

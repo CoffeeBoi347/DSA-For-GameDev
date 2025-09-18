@@ -12,3 +12,7 @@
 .action-btn{
 	border-radius: 17px;
 }
+
+.login-btn{
+	border-radius: 10px;
+}
